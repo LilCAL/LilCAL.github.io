@@ -9,3 +9,12 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
     text-transform: none;
     }
+a {
+    color:bisque;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: brown;
+    color:aquamarine;
+}
