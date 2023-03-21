@@ -9,12 +9,12 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
     text-transform: none;
     }
-a {
-    color:bisque;
-    text-decoration: none;
+.expedu_icon {
+    color:#495057;
+    
 }
 
-a:hover{
-    background-color: brown;
-    color:aquamarine;
+.expedu_icon:hover{
+    background-color:#495057;
+    color:#fff;
 }
