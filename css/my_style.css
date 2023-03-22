@@ -10,21 +10,45 @@ body {
     text-transform: none;
     }
 
-    a {
-        color:#495057;
-        
+    :root{
+        --bs-primary:#0B00A6;
+        --bs-primary-rgb: 11, 0, 166;
+        --bs-secondary:#bd5d38;
+        --bs-secondary-rgb: 238, 143, 0;
     }
     
-    a:hover{
-        background-color:#495057;
-        color:#fff;
+    .email{
+        color:var(--bs-primary);
     }
-    .expedu_icon {
-    color:#495057;
     
-}
-
-.expedu_icon:hover{
-    background-color:#495057;
-    color:#fff;
-}
+    .email:hover{
+        background-color: #495057;
+        color: #fff;
+    
+    }
+    
+    .nav-item{
+        color: #bd5d38;
+    }
+    
+    .nav-item:hover{
+        background-color: #495057;
+        color: #fff;
+    
+    }
+    
+    .expedu_icon{
+        color: #495057;
+    }
+    
+    .expedu_icon:hover{
+        color: var(--bs-secondary);
+    }
+    
+    a{
+        color: var(--bs-primary);
+    }
+    
+    .social-icons .social-icons:hover {
+        background-color:var(--bs-secondary);
+    }
